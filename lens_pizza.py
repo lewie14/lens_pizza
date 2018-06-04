@@ -22,3 +22,7 @@ priciest_pizza = pizzas[6]
 #Find the three cheapest
 three_cheapest = pizzas[:3]
 print(three_cheapest)
+
+#Count any many pizzas cost 2
+num_two_dollar_slices = prices.count(2)
+print(num_two_dollar_slices)
