@@ -16,4 +16,9 @@ print(pizzas)
 pizzas.sort()
 cheapest_pizza = pizzas[0]
 
+#Find most expensive pizza
+priciest_pizza = pizzas[6]
 
+#Find the three cheapest
+three_cheapest = pizzas[:3]
+print(three_cheapest)
