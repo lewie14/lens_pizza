@@ -10,6 +10,10 @@ print("We sell " + str(num_pizzas) + " different kinds of pizza!")
 
 #Combine prices and toppings into one list called pizzas
 pizzas = list(zip(prices, toppings))
-
 print(pizzas)
+
+#sort pizzas so lowest price at start of list
+pizzas.sort()
+cheapest_pizza = pizzas[0]
+
 
